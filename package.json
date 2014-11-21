@@ -1,0 +1,20 @@
+{
+  "name": "shifty-obj-tweenable",
+  "description": "Lightweight Timeline and Tweenable library on top of Shifty",
+  "version": "0.0.0",
+  "devDependencies": {
+    "jshint": "^2.5.10",
+    "karma": "~0.12.1",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-coverage": "^0.2.6",
+    "karma-coveralls": "^0.1.4",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-ie-launcher": "~0.1.1",
+    "karma-mocha": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "karma-safari-launcher": "~0.1.1"
+  },
+  "scripts": {
+    "test": "jshint . && ./node_modules/karma/bin/karma start --browsers Firefox --single-run"
+  }
+}
