@@ -20,7 +20,8 @@
         "describe": true,
         "beforeEach": true,
         "chai": true,
-        "Timeline": true,
+        "define": true,
+        "module": true,
         "ObjTweenable": true,
         "Tweenable": true
     }
